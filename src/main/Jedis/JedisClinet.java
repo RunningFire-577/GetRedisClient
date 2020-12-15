@@ -25,7 +25,7 @@ public class JedisClinet {
     public static void main(String[] args) {
         Jedis jedis = JedisClinet.getJedisFromPool();
         System.out.println(jedis.ping());
-        jedis.close();
+
 
 
     }
